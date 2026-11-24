@@ -1,23 +1,24 @@
-# Real-Life Patch Notes: The Comedy Changelog
+# Real Life Patch Notes: The Comedy Changelog
 
-[![make.fun](https://make.fun/badge/u-0xb3e689-real-life-patch-notes-the-comedy-changelog-c5844c1d.svg)](https://make.fun/bounty/u-0xb3e689-real-life-patch-notes-the-comedy-changelog-c5844c1d)
-[![rank](https://make.fun/badge/u-0xb3e689-real-life-patch-notes-the-comedy-changelog-c5844c1d/rank.svg)](https://make.fun/bounty/u-0xb3e689-real-life-patch-notes-the-comedy-changelog-c5844c1d)
-[![reward](https://make.fun/badge/u-0xb3e689-real-life-patch-notes-the-comedy-changelog-c5844c1d/reward.svg)](https://make.fun/bounty/u-0xb3e689-real-life-patch-notes-the-comedy-changelog-c5844c1d)
+![make.fun](https://make.fun/badge/u-0xb3e689-real-life-patch-notes-the-comedy-changelog-c5844c1d.svg)
+![rank](https://make.fun/badge/u-0xb3e689-real-life-patch-notes-the-comedy-changelog-c5844c1d/rank.svg)
+![reward](https://make.fun/badge/u-0xb3e689-real-life-patch-notes-the-comedy-changelog-c5844c1d/reward.svg)
 
-Entry for the make.fun bounty **Real-Life Patch Notes: The Comedy Changelog** —
-one line, at most 160 characters: a software patch note for a bug in real
+One line, at most 160 characters: a software patch note for a bug in real
 life or human biology, in the terse register of a real release note.
 
-## The entry
+## Entry
 
-> v1.7.5: fixed a bug where the arm waved back at strangers who were waving at someone behind you.
+```
+v2.0.3: fixed a bug where the legs walked into a room and immediately forgot why they were there.
+```
 
-## How it runs
+## How it works
 
-`main.py` (Python 3 standard library only) copies the stored entry text
-(`entry.txt`) to `$MAKEFUN_OUTPUT_DIR/entry.txt` and validates it: exactly
-one line, 1–160 characters, UTF-8. No network, no extra files, no
-dependencies.
+`main.py` (stdlib only) copies the stored line from `entry.txt` to
+`$MAKEFUN_OUTPUT_DIR/entry.txt`. No network, no fonts, no dependencies.
+
+## Run
 
 ```sh
 MAKEFUN_OUTPUT_DIR=/tmp/out python3 main.py
